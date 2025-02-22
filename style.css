@@ -46,7 +46,7 @@
     left: 50px;
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -127,4 +127,13 @@
 
 #check:checked ~ .sidebar_menu .btn_two i{
     opacity: 1;
+}
+
+#footer{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    
+    margin-left: 45vw;
 }
