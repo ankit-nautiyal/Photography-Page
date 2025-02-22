@@ -152,3 +152,10 @@
     scale: 1.1;
     transition: all 0.3s linear;
 }
+
+#h1{
+    color: white ;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
