@@ -1,3 +1,3 @@
-# Photography-Page
+# Photography Page
 
-A simple photography page using HTML & CSS
+This is a Photography Page built using HTML & CSS and deployed using GitHub Pages.
