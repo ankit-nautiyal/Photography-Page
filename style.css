@@ -42,7 +42,8 @@
 }
 
 .sidebar_menu .logo a{
-    position: absolute;
+    display: flex;
+    justify-content: center;
     left: 50px;
     color: white;
     text-decoration: none;
@@ -130,10 +131,24 @@
 }
 
 #footer{
-    color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    margin-bottom: 10px;
-    
-    margin-left: 45vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+#footer p{
+    color: white;
+    opacity: 0.8; 
+}
+
+
+#footer p:hover{
+    opacity: 1; 
+    scale: 1.1;
+    transition: all 0.3s linear;
 }
